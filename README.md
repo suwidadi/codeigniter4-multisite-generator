@@ -106,14 +106,14 @@ php spark serve --host=sitename.local --port=8081
 ## ✅ Example
 
 ```bat
-setup-site.bat
+multiweb_installer.bat sitename
 ```
 
 Output:
 
 ```
 Installing CodeIgniter 4 Core...
-Creating websites\site1\...
+Creating sitename\...
 Copying app structure...
 Configuring Paths.php...
 Creating writable directories...
@@ -121,6 +121,6 @@ Setup completed for site1
 ```
 
 Your new CI4 app is ready at:
-➡️ `http://site1.local:8081/`
+➡️ `http://sitename.local:8081/`
 
 ---
