@@ -1,8 +1,3 @@
-Got it Bro 👍
-Here’s a **README.md** based on the batch script setup we made earlier:
-
----
-
 # 🚀 CodeIgniter 4 Multi-Site Setup (Windows)
 
 This project provides a **ready-made batch script** to install **CodeIgniter 4 Core** with Composer and set up a new site instance under a `websites/` directory.
@@ -63,16 +58,17 @@ websites/
 
 1. clone git@github.com:suwidadi/codeigniter4-multisite-generator.git websites
 2. cd website
-3. run multiweb_installer.bat sitename
+3. composer install
+
+```
+composer install
+```
+
+4. run multiweb_installer.bat sitename
 
 ```bat
 multiweb_installer.bat sitename
 ```
-
-3. The script will:
-
-   * clone under `websites` folder
-   * Create a site under `websites\sitename` (default)
 
 ---
 
@@ -128,5 +124,3 @@ Your new CI4 app is ready at:
 ➡️ `http://site1.local:8081/`
 
 ---
-
-Bro, do you want me to also include the **full batch script inline** inside this README (for quick copy-paste), or keep it just as usage documentation?
